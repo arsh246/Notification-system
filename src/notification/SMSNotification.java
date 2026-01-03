@@ -1,4 +1,9 @@
 package notification;
 
-public class SMSNotification {
+public class SMSNotification extends Notification {
+
+    public SMSNotification() {
+        System.out.println("SMSNotification created");
+
+    }
 }

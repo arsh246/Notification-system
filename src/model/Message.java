@@ -1,4 +1,7 @@
 package model;
 
-public class Message {
+public interface Message {
+
+    String getContent();
+
 }

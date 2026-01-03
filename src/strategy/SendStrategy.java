@@ -1,4 +1,8 @@
 package strategy;
 
-public class SendStrategy {
+import model.Message;
+
+public interface SendStrategy {
+
+    void send(Message message);
 }

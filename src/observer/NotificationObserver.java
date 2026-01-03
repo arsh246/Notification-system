@@ -1,4 +1,7 @@
 package observer;
 
-public class NotificationObserver {
+public interface NotificationObserver {
+
+    void update(String messageContent);
+
 }
